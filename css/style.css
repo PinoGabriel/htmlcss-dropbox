@@ -113,3 +113,9 @@ hr {
 h2 {
     font-size: 30px;
 }
+
+.btn-partner {
+    border: 1px solid black;
+    padding: 15px;
+    color: black;
+}
