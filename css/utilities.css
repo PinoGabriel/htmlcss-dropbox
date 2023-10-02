@@ -79,6 +79,7 @@
 .bg-lightgray { background-color: lightgray; }
 .bg-black { background-color: black; }
 .bg-orange {background-color: #ff6900; }
+.border-lightgray {border: 1px solid lightgray;}
 
 /*** MARGIN ***/
 .m-8 { margin: 8px; }
