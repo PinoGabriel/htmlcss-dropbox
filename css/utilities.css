@@ -135,10 +135,14 @@
 .c-black {
     color: black;
 }
+.c-grey {
+    color: grey;
+}
 
 /*** TEXT ALLINEATO ***/
 .t-align-center {text-align: center;}
 .t-align-right {text-align: right;}
+.t-align-left {text-align: left;}
 
 /*** FONT WEIGHT ***/
 .fWeight-100 { font-weight: 100; }
@@ -151,3 +155,6 @@
 
 .fSmall {font-size: small;}
 
+/*** FONT SIZE ***/
+
+.fSize-17 {font-size: 17px;}

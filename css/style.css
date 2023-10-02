@@ -48,10 +48,6 @@ h1 {
     font-weight: 800;
 }
 
-p {
-    font-size: 17px;
-}
-
 .fa-arrow-down {
     font-size: 40px;
 }
@@ -63,8 +59,19 @@ p {
 }
 
 .card-item {
-    min-height: 500px;
     border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.card-item-center {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 32px;
+}
+
+h3 {
+    font-size: 26px;
 }
 
 .partner-img {
@@ -73,4 +80,8 @@ p {
 
 .carta-wrap {
     min-height: 50px;
+}
+
+h2 {
+    font-size: 30px;
 }
