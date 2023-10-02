@@ -11,22 +11,26 @@ header {
 
 .container {
     min-height: 80px;
-    background-color: red;
+    background-color: white;
 }
 
-.btn {
-    background-color: blue;
-    padding: 10px;
-}
-
-.blocco-item > a {
+a {
     text-decoration: none;
     color: black;
 }
 
+.btn {
+    background-color: #0061ff;
+    padding: 5px 20px;
+    color: white;
+}
+
+.jumbo-bg {
+    background-color: #b4d0e7;
+}
+
 .jumbo {
     max-width: 1400px;
-    min-height: 500px;
     margin: 80px auto;
 }
 
@@ -40,8 +44,16 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 800;
+}
+
+p {
+    font-size: 17px;
+}
+
+.fa-arrow-down {
+    font-size: 40px;
 }
 
 .container-stretto {
