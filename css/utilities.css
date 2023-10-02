@@ -128,6 +128,10 @@
     text-decoration: none;
 }
 
+.decoration-yes {
+    text-decoration: underline;
+}
+
 /*** TEXT COLORS ***/
 .c-white {
     color: white;

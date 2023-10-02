@@ -16,7 +16,6 @@ header {
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 .btn {
@@ -70,9 +69,33 @@ h1 {
     padding: 32px;
 }
 
+.btn-card {
+    background-color: #0061ff;
+    padding: 15px 45px;
+    color: white;
+}
+
 h3 {
     font-size: 26px;
 }
+
+.link-card {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+hr {
+    border: 1px solid lightgray;
+    width: 20%;
+}
+
+.fa-check {
+    color: #0061ff;
+    font-size: 20px;
+}
+
+
+
 
 .partner-img {
     width: 100%;
