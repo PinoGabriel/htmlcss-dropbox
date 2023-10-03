@@ -19,6 +19,16 @@ a {
     margin: 0px auto;
 }
 
+.container-small {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-xs {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 h1 {
     font-size: 80px;
     font-weight: 800;
@@ -73,11 +83,6 @@ header {
 
 .fa-arrow-down {
     font-size: 40px;
-}
-
-.container-card {
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .card-item {
@@ -180,4 +185,28 @@ hr {
 
 .logo-corp h2 {
     color: #61082B;
+}
+
+#box-domande hr {
+    width: 100%;
+}
+
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer hr {
+    width: 10%;
+}
+
+.language {
+    color: lightgray;
 }
