@@ -32,6 +32,8 @@
 .w-80 { width: 80%; } /* 4/5 */
 .w-100 { width: 100%; }
 
+.h-50 { height: 50%; } /* 1/2 */
+
 /*** PADDINGS ***/
 .p-8 { padding: 8px; }
 .pt-8 { padding-top: 8px; }

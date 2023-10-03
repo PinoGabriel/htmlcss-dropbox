@@ -1,18 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-.container {
-    min-height: 80px;
-    background-color: white;
-}
+/* INIZIO GENERICHE */
 
 a {
     text-decoration: none;
@@ -24,6 +13,46 @@ a {
     color: white;
 }
 
+.container-stretto {
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+h3 {
+    font-size: 26px;
+}
+
+/* FINE GENERICHE */
+
+/* HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container-header {
+    min-height: 80px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+/* FINE HEADER */
+
+/*  INIZIO MAIN */
 .jumbo-bg {
     background-color: #b4d0e7;
 }
@@ -42,19 +71,8 @@ a {
     justify-content: flex-start;    
 }
 
-h1 {
-    font-size: 80px;
-    font-weight: 800;
-}
-
 .fa-arrow-down {
     font-size: 40px;
-}
-
-.container-stretto {
-    max-width: 1200px;
-    min-height: 400px;
-    margin: 0px auto;
 }
 
 .container-card {
@@ -80,10 +98,6 @@ h1 {
     color: white;
 }
 
-h3 {
-    font-size: 26px;
-}
-
 .link-card {
     text-decoration: underline;
     color: #0061ff;
@@ -99,23 +113,71 @@ hr {
     font-size: 20px;
 }
 
-
-
-
 .partner-img {
     width: 100%;
 }
 
 .carta-wrap {
-    min-height: 50px;
-}
-
-h2 {
-    font-size: 30px;
+    width: 100%;
 }
 
 .btn-partner {
     border: 1px solid black;
     padding: 15px;
     color: black;
+}
+
+/*  FINE MAIN */
+
+.container-a-blocchi {
+    max-width: 100%;
+    background-color: #F5F5F5;
+    height: 600px;
+}
+
+.logo-card {
+    filter: invert(1);
+    width: 100%;
+}
+
+.logo-design {
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+
+.logo-arizona {
+    background-color: #61082B;
+}
+
+.logo-uniflorida {
+    background-color: #0093CE;
+}
+
+.logo-topps {
+    background-color: #FF1C1C;
+}
+
+.logo-wbr {
+    background-color: #D5001F;
+}
+
+.logo-corp {
+    background-color: #B4D0E7;
+}
+
+.logo-lonely {
+    background-color: #0D2481;
+}
+
+.logo-clear-channel {
+    background-color: #FFD830;
+}
+
+.btn-dropbox-business {
+    background-color: white;
+    color: black;
+}
+
+.logo-corp h2 {
+    color: #61082B;
 }

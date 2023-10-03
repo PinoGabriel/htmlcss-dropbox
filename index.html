@@ -14,7 +14,7 @@
 <body>
     <!-- Inizio Header -->
     <header>
-        <section class="container d-flex flex-justify-between flex-align-center">
+        <nav class="container-header d-flex flex-justify-between flex-align-center">
             <div class="blocco-item d-flex">
                 <a class="px-32" href="#">
                     <img src="./img/logo-small.png" alt="ada">
@@ -29,7 +29,7 @@
                 <a class="px-32 c-black" href="#">Accedi</a>
                 <a class="px-32 btn mr-32 c-white" href="#">Inizia</a>
             </div>
-        </section>
+        </nav>
     </header>
     <!-- Fine Header -->
 
@@ -56,11 +56,12 @@
         <!-- FINE JUMBO -->
 
         <!-- PIANO BUSINESS -->
+        <!-- SECTION PIANI MENSILI -->
         <section class="py-64">
             <div class="container-card">
                 <h2 class="pb-64">Trova il piano business che fa per te</h2>
                 <div class="d-flex">
-                    <input type="radio" id="fat-m" name="fat-m" value="Fatturazione"> 
+                    <input type="radio" id="fat-m" name="fa" value="Fatturazione"> 
                     <label class="pr-32" for="html">Fatturazione mensile</label>
                     <input type="radio" id="fat-a" name="fat-a" value="FatturazioneA">
                     <label class="pr-32" for="css">Fatturazione annuale</label>
@@ -79,113 +80,112 @@
                         <div class="px-8">Azienda</div>
                     </div>
                 </div>
+
+                    <div class="cards pb-64 d-flex flex-justify-between">
+                        <!-- PRIMA CARTA CONTAINER CENTRALE -->
+                        <div class="card-item-center w-30">
+                            <h3 class="py-8">Professional</h3>
+                            <p class="py-8 fWeight-700">€ 12.00</p>
+                            <p class="py-8 c-grey">/mese</p>
+                            <div class="pt-64 pb-16 d-flex">
+                                <i class="pr-8 fa-solid fa-user"></i> 1 Utente 
+                            </div>
+                            <div class="py-16 d-flex">
+                                <i class="pr-8 fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro
+                            </div>
+                            <div class="py-16 d-flex">
+                                <i class="pr-8 fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura........
+                            </div>
+                            <div class="py-64 t-align-center">
+                            <a class="btn-card" href="#">Prova gratis per 30 giorni</a>
+                            </div>
+                            <p>oppure <a class="link-card" href="#">aquista ora</a></p>
+                            <hr class="my-64">
+                            <h4>Punti Salienti del piano</h4>
+                            <div class="py-32 d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfer
+                            </div>
+                            <div class="pb-32 d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Cartelle offline su dispositivi mobili
+                            </div>
+                        </div>
+                        <!-- FINE PRIMA CARTA CONTAINER CENTRALE -->
+
+                        <!-- SECONDA CARTA CONTAINER CENTRALE -->
+                        <div class="card-item-center w-30">
+                            <h3 class="py-8">Advanced</h3>
+                            <p class="py-8 fWeight-700">€ 18.00</p>
+                            <p class="py-8 c-grey">/mese</p>
+                            <div class="pt-64 pb-16 d-flex">
+                                <i class="pr-8 fa-solid fa-users"></i> 3 o più utenti
+                            </div>
+                            <div class="py-16 d-flex">
+                                <i class="pr-8 fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team
+                            </div>
+                            <div class="py-16 d-flex">
+                                <i class="pr-8 fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                            </div>
+                            <div class="py-64 t-align-center">
+                            <a class="btn-card" href="#">Prova gratis per 30 giorni</a>
+                            </div>
+                            <p>oppure <a class="link-card" href="#">aquista ora</a></p>
+                            <hr class="my-64">
+                            <h4>Punti Salienti del piano</h4>
+                            <div class="py-32 d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Nessun limite di spazio per i file
+                            </div>
+                            <div class="pb-32 d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Cartelle offline su dispositivi mobili
+                            </div>
+                            <div class="pb-32 d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole
+                            </div>
+                            <div class="pb-32 d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team
+                            </div>
+                            <div class="d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli
+                            </div>
+                        </div>
+                        <!-- FINE SECONDA CARTA CONTAINER CENTRALE -->
+
+                        <!-- TERZA CARTA CONTAINER CENTRALE -->
+                        <div class="card-item-center w-30">
+                            <h3 class="py-8">Enterprise</h3>
+                            <p class="py-8 fWeight-700">Contattaci</p>
+                            <p class="py-8">-</p>
+                            <div class="pt-64 pb-16 d-flex">
+                                <i class="pr-8 fa-solid fa-user"></i> 10 o più utenti 
+                            </div>
+                            <div class="py-16 d-flex">
+                                <i class="pr-8 fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda
+                            </div>
+                            <div class="py-16 d-flex">
+                                <i class="pr-8 fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                            </div>
+                            <div class="py-64 t-align-center">
+                            <a class="btn-card" href="#">Contattaci</a>
+                            </div>
+                            <p>oppure <a class="link-card" href="#">aquista ora</a></p>
+                            <hr class="my-64">
+                            <h4>Punti Salienti del piano</h4>
+                            <div class="py-32 d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Cartelle offline su dispositivi mobili
+                            </div>
+                            <div class="pb-32 d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Servizio assistenza 24/h
+                            </div>
+                            <div class="d-flex">
+                                <i class="px-8 fa-solid fa-check"></i> Possibilità di personalizzazione totale
+                            </div>
+                        </div>
+                        <!-- FINE TERZA CARTA CONTAINER CENTRALE -->
+                    </div>
             </div>
-
-            <div class="container-card">
-                <div class="cards pb-64 d-flex flex-justify-between">
-                    <!-- PRIMA CARTA CONTAINER CENTRALE -->
-                    <div class="card-item-center w-30">
-                        <h3 class="py-8">Professional</h3>
-                        <p class="py-8 fWeight-700">€ 12.00</p>
-                        <p class="py-8 c-grey">/mese</p>
-                        <div class="pt-64 pb-16 d-flex">
-                            <i class="pr-8 fa-solid fa-user"></i> 1 Utente 
-                        </div>
-                        <div class="py-16 d-flex">
-                            <i class="pr-8 fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro
-                        </div>
-                        <div class="py-16 d-flex">
-                            <i class="pr-8 fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura........
-                        </div>
-                        <div class="py-64 t-align-center">
-                        <a class="btn-card" href="#">Prova gratis per 30 giorni</a>
-                        </div>
-                        <p>oppure <a class="link-card" href="#">aquista ora</a></p>
-                        <hr class="my-64">
-                        <h4>Punti Salienti del piano</h4>
-                        <div class="py-32 d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfer
-                        </div>
-                        <div class="pb-32 d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Cartelle offline su dispositivi mobili
-                        </div>
-                    </div>
-                    <!-- FINE PRIMA CARTA CONTAINER CENTRALE -->
-
-                    <!-- SECONDA CARTA CONTAINER CENTRALE -->
-                    <div class="card-item-center w-30">
-                        <h3 class="py-8">Advanced</h3>
-                        <p class="py-8 fWeight-700">€ 18.00</p>
-                        <p class="py-8 c-grey">/mese</p>
-                        <div class="pt-64 pb-16 d-flex">
-                            <i class="pr-8 fa-solid fa-users"></i> 3 o più utenti
-                        </div>
-                        <div class="py-16 d-flex">
-                            <i class="pr-8 fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team
-                        </div>
-                        <div class="py-16 d-flex">
-                            <i class="pr-8 fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
-                        </div>
-                        <div class="py-64 t-align-center">
-                        <a class="btn-card" href="#">Prova gratis per 30 giorni</a>
-                        </div>
-                        <p>oppure <a class="link-card" href="#">aquista ora</a></p>
-                        <hr class="my-64">
-                        <h4>Punti Salienti del piano</h4>
-                        <div class="py-32 d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Nessun limite di spazio per i file
-                        </div>
-                        <div class="pb-32 d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Cartelle offline su dispositivi mobili
-                        </div>
-                        <div class="pb-32 d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole
-                        </div>
-                        <div class="pb-32 d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team
-                        </div>
-                        <div class="d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli
-                        </div>
-                    </div>
-                    <!-- FINE SECONDA CARTA CONTAINER CENTRALE -->
-
-                    <!-- TERZA CARTA CONTAINER CENTRALE -->
-                    <div class="card-item-center w-30">
-                        <h3 class="py-8">Enterprise</h3>
-                        <p class="py-8 fWeight-700">Contattaci</p>
-                        <p class="py-8">-</p>
-                        <div class="pt-64 pb-16 d-flex">
-                            <i class="pr-8 fa-solid fa-user"></i> 10 o più utenti 
-                        </div>
-                        <div class="py-16 d-flex">
-                            <i class="pr-8 fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda
-                        </div>
-                        <div class="py-16 d-flex">
-                            <i class="pr-8 fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
-                        </div>
-                        <div class="py-64 t-align-center">
-                        <a class="btn-card" href="#">Contattaci</a>
-                        </div>
-                        <p>oppure <a class="link-card" href="#">aquista ora</a></p>
-                        <hr class="my-64">
-                        <h4>Punti Salienti del piano</h4>
-                        <div class="py-32 d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Cartelle offline su dispositivi mobili
-                        </div>
-                        <div class="pb-32 d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Servizio assistenza 24/h
-                        </div>
-                        <div class="d-flex">
-                            <i class="px-8 fa-solid fa-check"></i> Possibilità di personalizzazione totale
-                        </div>
-                    </div>
-                    <!-- FINE TERZA CARTA CONTAINER CENTRALE -->
-                </div>
-            </div>
-            
         </section>
+        <!-- FINE SECTION PIANI MENSILI -->
 
+        <!-- INIZIO SECTION UFFICIO VENDITE -->
         <section>
             <div class="container-stretto">
                 <div class="card-item d-flex flex-justify-center flex-align-center">
@@ -207,6 +207,7 @@
                 
             </div>
         </section>
+        <!-- FINE SECTION UFFICIO VENDITE -->
         <!-- FINE PIANO BUSINESS -->
 
         <!-- PARTNER DROPBOX -->
@@ -227,23 +228,126 @@
         </section>
         <!-- FINE DROPBOX -->
 
-        <div class="bg-aquamarine container-stretto py-64">
-            <h2>Esegui più operazioni con Dropbox Business</h2>
-            <div class="container-stretto bg-orange d-flex flex-wrap flex-justify-between">
-                <div class="w-33 p-8 bg-pink carta-wrap"></div>
-                <div class="w-33 p-8 bg-pink carta-wrap"></div>
-                <div class="w-33 p-8 bg-pink carta-wrap"></div>
-                <div class="w-33 p-8 bg-pink carta-wrap"></div>
-                <div class="w-33 p-8 bg-pink carta-wrap"></div>
-                <div class="w-33 p-8 bg-pink carta-wrap"></div>
+        <!-- CARD DROPBOX BUSINESS -->
+        <section>
+            <div class="container-card py-64">
+                <h2 class="pb-32">Esegui più operazioni con Dropbox Business</h2>
+                <div class="container-card d-flex flex-wrap flex-justify-between">
+                    <div class="w-33 p-8">
+                        <img class="carta-wrap" src="./img/business-feature-switching-tools.png" alt="Switch-tools">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="py-32">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Bropbox Paper direttamente da Dropbox</p>
+                    </div>
+                    <div class="w-33 p-8">
+                        <img class="carta-wrap" src="./img/business-feature-send-files-it.png" alt="Send-file">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="py-32">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Bropbox Paper direttamente da Dropbox</p>
+                    </div>
+                    <div class="w-33 p-8">
+                        <img class="carta-wrap" src="./img/business-feature-coordinate-it.png" alt="Coordinate">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="py-32">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Bropbox Paper direttamente da Dropbox</p>
+                    </div>
+                    <div class="w-33 p-8">
+                        <img class="carta-wrap" src="./img/business-feature-integrations-it.png" alt="Integrations">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="py-32">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Bropbox Paper direttamente da Dropbox</p>
+                    </div>
+                    <div class="w-33 p-8">
+                        <img class="carta-wrap" src="./img/business-feature-multi-device.png" alt="Multi-device">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="py-32">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Bropbox Paper direttamente da Dropbox</p>
+                    </div>
+                    <div class="w-33 p-8">
+                        <img class="carta-wrap" src="./img/business-feature-security.png" alt="Security">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="py-32">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Prestazioni di Google, file Microsoft Office e Bropbox Paper direttamente da Dropbox</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+        <!-- FINE CARD DROPBOX BUSINESS -->
 
-        <div class="bg-aquamarine container-stretto py-64">
+        <!-- CARD AZIENDE -->
+        <div class="container-card py-64">
             <h2>Più di 500.00 team utilizzano <br> Dropbox Business</h2>
-            <a class="my-64 d-block" href="#">Scopri di più sui nostri clienti</a>
+            <a class="my-64 d-block link-card" href="#">Scopri di più sui nostri clienti</a>
         </div>
 
+        <section class="container-a-blocchi d-flex flex-justify-between">
+            <div class="w-30 d-flex flex-wrap">
+                <div class="w-50 h-50 logo-design p-64 d-flex flex-align-center">
+                    <img class="logo-card" src="./img/designit.svg" alt="Design.it">
+                </div>
+                <div class="w-50 h-50 logo-arizona p-64 d-flex flex-align-center">
+                    <img class="logo-card" src="./img/arizona_state_university.svg" alt="Arizona">
+                </div>
+                <div class="w-50 h-50 logo-uniflorida p-64 d-flex flex-align-center">
+                    <img class="logo-card" src="./img/university_of_florida.svg" alt="UNF">
+                </div>
+                <div class="w-50 h-50 logo-topps p-64 d-flex flex-align-center">
+                    <img class="logo-card" src="./img/topps.svg" alt="topps">
+                </div>
+            </div>
+            <div class="w-40 p-32">
+                <img src="./img/designit.svg" alt="Design.it">
+                <hr class="mt-32">
+                <p class="mt-32">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. OIra molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
+                <p class="mt-32">Moten Thomasen, Global IT Lead</p>
+            </div>
+            <div class="w-30 d-flex flex-wrap">
+                <div class="w-50 h-50 logo-wbr p-64 d-flex flex-align-center">
+                    <img class="logo-card" src="./img/world_bicycle_relief.svg" alt="WBR">
+                </div>
+                <div class="w-50 h-50 logo-corp p-64 d-flex flex-align-center">
+                    <img class="logo-card" src="./img/hearst_corp.svg" alt="hearst_corp">
+                </div>
+                <div class="w-50 h-50 logo-lonely p-64 d-flex flex-align-center">
+                    <img class="logo-card" src="./img/lonely_planet.svg" alt="lonely-planet">
+                </div>
+                <div class="w-50 h-50 logo-clear-channel p-64 d-flex flex-align-center">
+                    <img class="logo-card" src="./img/clear_channel.svg" alt="clear_channel">
+                </div>
+            </div>
+        </section>
+        <!-- FINE CARD AZIENDE -->
+
+        <section class="logo-corp mb-32">
+            <div class="container-card d-flex flex-align-center">
+                <h2 class="p-64 w-70">Porta Dropbox Business nella tua azienda</h2>
+                <div class="p-32 w-30 t-align-center">
+                    <a class="btn btn-dropbox-business" href="#">Inizia la tua prova gratuita</a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section>
+            <div class="container-card py-64">
+                <h3>Domande frequenti</h3>
+                <div>
+                    <hr>
+                </div>
+                <div>
+                    <h4>1eq2er</h4>
+                    <i class="fa-solid fa-arrow-down pt-64 pb-8"></i>
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <div>
+                    <h4>1eq2er</h4>
+                    <i class="fa-solid fa-arrow-down pt-64 pb-8"></i>
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <div>
+                    <h4>1eq2er</h4>
+                    <i class="fa-solid fa-arrow-down pt-64 pb-8"></i>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Fine Main -->
 
