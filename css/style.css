@@ -215,7 +215,10 @@ footer hr {
 
 .fa-angle-up {
     display: none;
-    transition: 2s linear;
+}
+
+.risposta {
+    display: none;
 }
 
 .cambio-angle:hover .fa-angle-down {
@@ -235,6 +238,3 @@ footer hr {
     display: block;
 }
 
-.risposta {
-    display: none;
-}
