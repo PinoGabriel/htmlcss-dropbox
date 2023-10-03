@@ -210,3 +210,31 @@ footer hr {
 .language {
     color: lightgray;
 }
+
+/* HOVER */
+
+.fa-angle-up {
+    display: none;
+    transition: 2s linear;
+}
+
+.cambio-angle:hover .fa-angle-down {
+    display: none;
+}
+
+.cambio-angle:hover .fa-angle-up {
+    display: block;
+    padding-bottom: 64px;
+}
+
+.cambio-angle:hover .domanda {
+    display: none;
+}
+
+.cambio-angle:hover .risposta {
+    display: block;
+}
+
+.risposta {
+    display: none;
+}
