@@ -139,12 +139,14 @@ hr {
     transition: 0.3s;
 }
 
-/*  FINE MAIN */
-
 .container-a-blocchi {
     max-width: 100%;
     background-color: #F5F5F5;
     height: 600px;
+}
+
+.scrollbar {
+    overflow-y: auto;
 }
 
 .logo-card {
