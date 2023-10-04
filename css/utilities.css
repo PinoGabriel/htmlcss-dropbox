@@ -150,6 +150,9 @@
 .t-align-right {text-align: right;}
 .t-align-left {text-align: left;}
 
+/*** ALLINEAMENTO VERTICALE ***/
+.v-align-middle {vertical-align: middle;}
+
 /*** FONT WEIGHT ***/
 .fWeight-100 { font-weight: 100; }
 .fWeight-200 { font-weight: 200; }

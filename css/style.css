@@ -11,6 +11,7 @@ a {
     background-color: #0061ff;
     padding: 5px 20px;
     color: white;
+    transition: 0.3s;
 }
 
 .container-stretto {
@@ -60,6 +61,10 @@ header {
     border-bottom: 1px solid lightgray;
 }
 
+.h-link {
+    line-height: 80px;
+}
+
 /* FINE HEADER */
 
 /*  INIZIO MAIN */
@@ -101,6 +106,7 @@ header {
     background-color: #0061ff;
     padding: 15px 45px;
     color: white;
+    transition: 0.3s;
 }
 
 .link-card {
@@ -130,6 +136,7 @@ hr {
     border: 1px solid black;
     padding: 15px;
     color: black;
+    transition: 0.3s;
 }
 
 /*  FINE MAIN */
@@ -230,11 +237,28 @@ footer hr {
     padding-bottom: 64px;
 }
 
-.cambio-angle:hover .domanda {
-    display: none;
-}
-
 .cambio-angle:hover .risposta {
     display: block;
 }
 
+.item-h:hover {
+    border-bottom: 2px solid black;
+}
+
+.btn:hover {
+    background-color: #4e92ff;
+}
+
+.btn-card:hover {
+    background-color: #4e92ff;
+}
+
+.btn-partner:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-dropbox-business:hover {
+    background-color: black;
+    color: white;
+}

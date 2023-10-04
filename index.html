@@ -16,18 +16,21 @@
     <header>
         <nav class="container-header d-flex flex-justify-between flex-align-center">
             <div class="blocco-item d-flex">
-                <a class="px-32" href="#">
-                    <img src="./img/logo-small.png" alt="ada">
+                <a class="item-h px-32 h-link" href="#">
+                    <img class="v-align-middle" src="./img/logo-small.png" alt="ada">
                 </a>
-                <a class="px-32 c-black" href="#">Perchè Dropbox</a>
-                <a class="px-32 c-black" href="#">Funzioni</a>
-                <a class="px-32 c-black" href="#">Piani e Prezzi</a>
+                <a class="item-h px-32 c-black h-link" href="#">Perchè Dropbox</a>
+                <a class="item-h px-32 c-black h-link" href="#">Funzioni</a>
+                <a class="item-h px-32 c-black h-link" href="#">Piani e Prezzi</a>
             </div>
-            <div class="blocco-item">
-                <a class="px-32 c-black" href="#">Supporto</a>
-                <a class="px-32 c-black" href="#">Contatta l'ufficio vendite</a>
-                <a class="px-32 c-black" href="#">Accedi</a>
-                <a class="px-32 btn mr-32 c-white" href="#">Inizia</a>
+            <div class="blocco-item d-flex">
+                <a class="item-h px-32 c-black h-link" href="#">Supporto</a>
+                <a class="item-h px-32 c-black h-link" href="#">Contatta l'ufficio vendite</a>
+                <a class="item-h px-32 c-black h-link" href="#">Accedi</a>
+                <div class="item-h px-32">
+                    <a class="btn c-white h-link" href="#">Inizia</a>
+                </div>
+                
             </div>
         </nav>
     </header>
@@ -61,10 +64,10 @@
             <div class="container-small">
                 <h2 class="pb-64">Trova il piano business che fa per te</h2>
                 <div class="d-flex">
-                    <input type="radio" id="fat-m" name="fa" value="Fatturazione"> 
-                    <label class="pr-32" for="html">Fatturazione mensile</label>
-                    <input type="radio" id="fat-a" name="fat-a" value="FatturazioneA">
-                    <label class="pr-32" for="css">Fatturazione annuale</label>
+                    <input class="mr-8" type="radio" id="Fatturazione mensile" name="fa" value="Fatturazione mensile"> 
+                    <label class="mr-32" for="Fatturazione mensile">Fatturazione mensile</label>
+                    <input class="mr-8" type="radio" id="Fatturazione annuale" name="fat-a" value="Fatturazione annuale">
+                    <label class="mr-32" for="Fatturazione annuale">Fatturazione annuale</label>
                 </div>
                 <div class="cards pt-64 d-flex flex-justify-between">
                     <div class="card-item w-30 d-flex flex-justify-center flex-align-center">
@@ -275,7 +278,7 @@
         </div>
 
         <section class="container-a-blocchi d-flex flex-justify-between">
-            <div class="w-30 d-flex flex-wrap">
+            <div class="w-33 d-flex flex-wrap">
                 <div class="w-50 h-50 logo-design p-64 d-flex flex-align-center">
                     <img class="logo-card" src="./img/designit.svg" alt="Design.it">
                 </div>
@@ -289,13 +292,13 @@
                     <img class="logo-card" src="./img/topps.svg" alt="topps">
                 </div>
             </div>
-            <div class="w-40 p-32">
+            <div class="w-33 p-32">
                 <img src="./img/designit.svg" alt="Design.it">
                 <hr class="mt-32">
                 <p class="mt-32">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. OIra molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
                 <p class="mt-32">Moten Thomasen, Global IT Lead</p>
             </div>
-            <div class="w-30 d-flex flex-wrap">
+            <div class="w-33 d-flex flex-wrap">
                 <div class="w-50 h-50 logo-wbr p-64 d-flex flex-align-center">
                     <img class="logo-card" src="./img/world_bicycle_relief.svg" alt="WBR">
                 </div>
@@ -328,24 +331,36 @@
                 <h2>Domande frequenti</h2>
                 <hr class="mt-64">
                 <div class="cambio-angle d-flex flex-justify-between flex-align-center py-32">
-                    <h4 class="domanda">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
-                    <p class="risposta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem dolorum asperiores fuga reprehenderit est quod esse mollitia et ab, accusantium, delectus vero, assumenda dignissimos sit earum iure sed aperiam facere?</p>
-                    <i class="fa-solid fa-angle-down px-32"></i>
-                    <i class="fa-solid fa-angle-up px-32"></i>                   
+                    <div>
+                        <h4 class="domanda">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                        <p class="risposta py-32">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem dolorum asperiores fuga reprehenderit est quod esse mollitia et ab, accusantium, delectus vero, assumenda dignissimos sit earum iure sed aperiam facere?</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-angle-down px-32"></i>
+                        <i class="fa-solid fa-angle-up px-32"></i>    
+                    </div>                                  
                 </div>
                 <hr>
                 <div class="cambio-angle d-flex flex-justify-between flex-align-center py-32">
-                    <h4 class="domanda">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
-                    <p class="risposta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem dolorum asperiores fuga reprehenderit est quod esse mollitia et ab, accusantium, delectus vero, assumenda dignissimos sit earum iure sed aperiam facere?</p>
-                    <i class="fa-solid fa-angle-down px-32"></i>
-                    <i class="fa-solid fa-angle-up px-32"></i>
+                    <div>
+                        <h4 class="domanda">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                        <p class="risposta py-32">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem dolorum asperiores fuga reprehenderit est quod esse mollitia et ab, accusantium, delectus vero, assumenda dignissimos sit earum iure sed aperiam facere?</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-angle-down px-32"></i>
+                        <i class="fa-solid fa-angle-up px-32"></i>    
+                    </div>  
                 </div>
                 <hr>
                 <div class="cambio-angle d-flex flex-justify-between flex-align-center py-32">
-                    <h4 class="domanda">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
-                    <p class="risposta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem dolorum asperiores fuga reprehenderit est quod esse mollitia et ab, accusantium, delectus vero, assumenda dignissimos sit earum iure sed aperiam facere?</p>
-                    <i class="fa-solid fa-angle-down px-32"></i>
-                    <i class="fa-solid fa-angle-up px-32"></i>
+                    <div>
+                        <h4 class="domanda">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                        <p class="risposta py-32">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem dolorum asperiores fuga reprehenderit est quod esse mollitia et ab, accusantium, delectus vero, assumenda dignissimos sit earum iure sed aperiam facere?</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-angle-down px-32"></i>
+                        <i class="fa-solid fa-angle-up px-32"></i>    
+                    </div>  
                 </div>
                 <hr class="mb-64">           
             </div>
